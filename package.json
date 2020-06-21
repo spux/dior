@@ -1,0 +1,23 @@
+{
+  "name": "dior",
+  "version": "0.0.1",
+  "description": "data island only for read",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spux/dior.git"
+  },
+  "keywords": [
+    "data",
+    "island"
+  ],
+  "author": "Melvin Carvalho (https://melvincarvalho.com/#me)",
+  "bugs": {
+    "url": "https://github.com/spux/dior/issues"
+  },
+  "homepage": "https://github.com/spux/dior#readme"
+}
