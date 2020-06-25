@@ -1,4 +1,8 @@
 ;(() => {
+  globalThis.qs = Object.fromEntries(
+    new URLSearchParams(document.location.search)
+  )
+
   globalThis.di = new Proxy(
     Array.from(
       document.querySelectorAll(
