@@ -9,7 +9,7 @@
         '[type="application/ld+json"], [type="application/json"]'
       )
     )
-      .map(island => [island.id, JSON.parse(island.text)])
+      .map(island => [island.id, JSON.parse(island.text || JSON.stringify(''))])
       .reduce((obj, item) => {
         obj[item[0]] = item[1]
         return obj
