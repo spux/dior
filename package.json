@@ -1,6 +1,6 @@
 {
   "name": "dior",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "data island only for read",
   "main": "index.js",
   "module": "index.js",

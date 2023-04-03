@@ -6,7 +6,7 @@
   globalThis.di = new Proxy(
     Array.from(
       document.querySelectorAll(
-        '[type="application/ld+json"], [type="application/json"]'
+        'script[type="application/ld+json"], script[type="application/json"]'
       )
     )
       .map(island => [island.id, JSON.parse(island.text || JSON.stringify(''))])
